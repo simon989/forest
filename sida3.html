@@ -4,39 +4,50 @@
 	<head>
 	
 		<title> Simons sida </title>
-		<link rel="stylesheet" href="css.css"/>
-		<meta charset="UTF-8" />
-		
+		<link rel="stylesheet" href="css.css"/> <!-- Länkar mitt css med min html. href är sökvägen till css filen och ut går ifrån den mapp detta dokument ligger i. -->
+		<meta charset="UTF-8" /> <!-- teckenkodning UTF-8 har bl.a åäö -->
+	
 	</head>
 
 	<body>
 	
-	<nav>
+		<nav>
+		
+			<a href="http://www.facebook.com"> Facebook </a>
+			 
+			 <a href="https://www.youtube.com/"> Youtube </a>
+			 
+			 <a href="https://twitter.com/"> Twitter </a>
+			 
+		</nav>
+		
+		<nav> <!-- nav står för navigation. Alltså den menyn som brukar vara överst på alla dina sidor-->
 			
-			<a href="index.html"><div class="navLink">
+			<ul><a href="index.html"><div class="navLink">
 
-				<h2 id="current"> Hem </h2> 
+				<li><h2 id="current"> Hem </h2></li>
 			
 			</div></a>
 			<a href="sida2.html"><div class="navLink">
 
-				<h2> Sida 2 </h2>
+				<li><h2> Sida 2 </h2></li>
 			
 			</div></a>
 			<a href="sida3.html"><div class="navLink">
 
-				<h2> Sida 3 </h2>
-		
-		</nav>
-		
-		<div class="background-wrap">
+				<li><h2> Sida 3 </h2></li>
+			</ul>
+		</nav> <!-- Slut på navigation -->
+				
+			
+			
+				<div class="background-wrap">
 				
 				<video id="videobcg" preload="auto" autoplay="true" loop="loop"
-					<source src="Empire.mp4" type="video/mp4">
-					<source src="Empire.webm" type="video/webm">
-						Sorry, your browser can`t support this video.
-				</video>
-				
+					<source src="Eminem.mp4" type="video/mp4">
+					<source src="Eminem.webm" type="video/webm">
+						
+				</video> <!-- Är videon till sidan-->
 				</div>
 	
 	</body>
