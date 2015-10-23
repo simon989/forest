@@ -1,72 +1,58 @@
 <!DOCTYPE html>
 <html>
-
-	<head>
-	
-		<title> Simons sida </title>
-		<link rel="stylesheet" href="css.css"/> <!-- Länkar mitt css med min html. href är sökvägen till css filen och ut går ifrån den mapp detta dokument ligger i. -->
-		<meta charset="UTF-8" /> <!-- teckenkodning UTF-8 har bl.a åäö -->
-	
-	</head>
-
-	<body>
-		 <div class="sidebar_container">       
-		<div class="sidebar">
-          <div class="sidebar_item">
-		<nav>
-		
-			<a href="http://www.facebook.com"> Facebook </a>
-			 
-			 <a href="https://www.youtube.com/"> Youtube </a>
-			 
-			 <a href="https://twitter.com/"> Twitter </a>
-			 
-		</nav>
-			 
-		<nav> <!-- nav står för navigation. Alltså den menyn som brukar vara överst på alla dina sidor-->
-		
-				<a href="index.html"><div class="navLink">
-			
-				<h2 id="current"> Home </h2>
-			
-			</div></a>
-			<a href="sida2.html"><div class="navLink">
-
-				<h2> Fun </h2>
-			
-			</div></a>
-			<a href="sida3.html"><div class="navLink">
-
-				<h2> C.R 7 </h2>
-				
-				</div></a>
-		</nav> <!-- Slut på navigation -->
-							
-				<div class="background-wrap">
-				
-				<video id="videobcg" preload="auto" autoplay="true" loop="loop"
-					<source src="Empire.mp4" type="video/mp4">
-					<source src="Empire.webm" type="video/webm">
-				
-				</video> <!-- Är bakgrundsvideon till sidan-->
-				
-				</div>
-				
-				<div class="content">
-				
-				
-					<h1>Simon<h1> <!-- Är den största texten-->
-					<p><marquee behavior="scroll" direction="left">Welcome to my page!</marquee></p>
-					<p> Keep calm and enjoy <p> <!-- Är undertexten, finns längst ner-->
-					
-			<head> <script language="javascript" type="text/javascript">alert("Välkommen till Simons sida")</script></head><font face="TimesNewRoman">
-			<span style="font-size: 10pt; text-decoration: none"></span></a></font> <!-- Meddelande när man öppnar sidan-->
-			
-			<hr noshade size=7>
-				
-				<h3><footer>&copy; Copyright 2015</footer><h3>
-				
-				<span class="threedtext">Awesome page by Simon</span>
-	</body>
-
+    <head>
+        <title> Simons sida </title>
+        <link rel="stylesheet" href="css.css"/>
+        <!-- Länkar mitt css med min html. href är sökvägen till css filen och ut går ifrån den mapp detta dokument ligger i. -->
+        <meta charset="UTF-8" />
+        <!-- teckenkodning UTF-8 har bl.a åäö -->
+    </head>
+    <body>
+        <nav>
+            <a href="http://www.facebook.com"> Facebook </a>
+            <a href="https://www.youtube.com/"> Youtube </a>
+            <a href="https://twitter.com/"> Twitter </a>
+        </nav>
+        <nav>
+            <!-- nav står för navigation. Alltså den menyn som brukar vara överst på alla dina sidor-->
+            <a href="index.html">
+                <div class="navLink">
+                    <h2 id="current"> Home </h2>
+                </div>
+            </a>
+            <a href="sida2.html">
+                <div class="navLink">
+                    <h2> Fun </h2>
+                </div>
+            </a>
+            <a href="sida3.html">
+                <div class="navLink">
+                    <h2> C.R 7 </h2>
+                </div>
+            </a>
+        </nav>
+        <!-- Slut på navigation -->
+        <div class="background-wrap">
+            <video id="videobcg" preload="auto" autoplay="autoplay" loop="loop">
+            <source src="Empire.mp4" type="video/mp4">
+            </video> <!-- Är bakgrundsvideon till sidan-->
+        </div>
+        <div class="content">
+        <h1>Simon</h1>
+        <!-- Är den största texten-->
+        
+            <marquee behavior="scroll" direction="left"><p>Welcome to my page!</p></marquee>
+        
+        <p> Keep calm and enjoy 
+        <p>
+            <!-- Är undertexten, finns längst ner-->
+            <script type="text/javascript">alert("Välkommen till Simons sida")</script>
+            <span style="font-size: 10pt; text-decoration: none"></span> <!-- Meddelande när man öppnar sidan-->
+        <hr>
+       
+        <h3>&copy; Copyright 2015</h3>
+        
+        <h3><span class="threedtext">Awesome page by Simon</span></h3>
+        </div>
+    </body>
 </html>

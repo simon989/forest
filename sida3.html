@@ -1,73 +1,58 @@
 <!DOCTYPE html>
 <html>
-
-	<head>
-	
-		<title> Simons sida </title>
-		<link rel="stylesheet" href="css.css"/> <!-- Länkar mitt css med min html. href är sökvägen till css filen och ut går ifrån den mapp detta dokument ligger i. -->
-		<meta charset="UTF-8" /> <!-- teckenkodning UTF-8 har bl.a åäö -->
-	
-	</head>
-
-	<body>
-	<body background="cr.jpg" >
-		<nav>
-		
-			<a href="http://www.facebook.com"> Facebook </a>
-			 
-			 <a href="https://www.youtube.com/"> Youtube </a>
-			 
-			 <a href="https://twitter.com/"> Twitter </a>
-			 
-		</nav>
-			 
-		<nav> <!-- nav står för navigation. Alltså den menyn som brukar vara överst på alla dina sidor-->
-		
-				<a href="index.html"><div class="navLink">
-			
-				<h2 id="current"> Home </h2>
-			
-			</div></a>
-			<a href="sida2.html"><div class="navLink">
-
-				<h2> Fun </h2>
-			
-			</div></a>
-			<a href="sida3.html"><div class="navLink">
-
-				<h2> C.R 7 </h2>
-		
-				</div></a>
-		</nav> <!-- Slut på navigation -->
-							
-				</div>
-				
-				<div class="content">
-				
-				<div>
-					<h1>Simon<h1> <!-- Är den största texten-->
-					<p><marquee behavior="scroll" direction="left">This is a page about Cristiano Ronaldo</marquee></p>
-					<p> Cristiano Ronaldo is a professional soccer player who has set records while playing for both Manchester United and Real Madrid. Movie coming soon! </p> <!-- Är undertexten-->
-				</div>
-				
-			<audio src="CR.mp3" controls autoplay></audio>
-		
-		<ul>
-			<li>Position: Attacking midfielder</li>
-			<li>Shirt: Number 7</li>
-			<li>Scores: More than 500  goals!</li>
-		</ul>
-			
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/33gTb1v3wds" frameborder="20" allowfullscreen></iframe>
-			<input type="text" name="textbox1" size "60" />
-			
-			<hr noshade size=7>
-			
-					<h3><footer>&copy; Copyright 2015</footer><h3>
-				
-					<span class="threedtext">Awesome page by Simon</span>
-				
-				 
-				 </body>
-
+    <head>
+        <title> Simons sida </title>
+        <link rel="stylesheet" href="css.css"/>
+        <!-- Länkar mitt css med min html. href är sökvägen till css filen och ut går ifrån den mapp detta dokument ligger i. -->
+        <meta charset="UTF-8" />
+        <!-- teckenkodning UTF-8 har bl.a åäö -->
+    </head>
+        <body class="ronaldo" >
+            <nav>
+                <a href="http://www.facebook.com"> Facebook </a>
+                <a href="https://www.youtube.com/"> Youtube </a>
+                <a href="https://twitter.com/"> Twitter </a>
+            </nav>
+            <nav>
+                <!-- nav står för navigation. Alltså den menyn som brukar vara överst på alla dina sidor-->
+                <a href="index.html">
+                    <div class="navLink">
+                        <h2 id="current"> Home </h2>
+                    </div>
+                </a>
+                <a href="sida2.html">
+                    <div class="navLink">
+                        <h2> Fun </h2>
+                    </div>
+                </a>
+                <a href="sida3.html">
+                    <div class="navLink">
+                        <h2> C.R 7 </h2>
+                    </div>
+                </a>
+            </nav>
+            <!-- Slut på navigation -->
+            <div class="content">
+            <div>
+                <h1>Simon</h1>
+                <!-- Är den största texten-->
+                <p>
+                    <marquee behavior="scroll" direction="left">This is a page about Cristiano Ronaldo</marquee>
+                </p>
+                <p> Cristiano Ronaldo is a professional soccer player who has set records while playing for both Manchester United and Real Madrid. Movie coming soon! </p>
+                <!-- Är undertexten-->
+            </div>
+            <audio src="CR.mp3" controls autoplay></audio>
+            <ul>
+                <li>Position: Attacking midfielder</li>
+                <li>Shirt: Number 7</li>
+                <li>Scores: More than 500  goals!</li>
+            </ul>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/33gTb1v3wds" allowfullscreen></iframe>
+            <input type="text" name="textbox1" size="60" />
+            <hr>
+            <h3>&copy; Copyright 2015</h3>
+            <span class="threedtext">Awesome page by Simon</span>
+            </div>
+    </body>
 </html>

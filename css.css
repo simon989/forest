@@ -80,7 +80,12 @@ a {
   letter-spacing: 3px;
   color: grey;
   padding-top: 30%
+  
   } /* hur text skriven med p ska vara */
+  
+ .ronaldo{
+	  background:url("cr.jpg")
+  }
   
 .content h3 {
 	color: white;
@@ -102,7 +107,7 @@ a {
 
 .threedtext:hover {
     color: #FFF;
-text-shadow: #afe222 1px 1px, #afe222 2px 2px, #afe222 3px 3px, #B7BDC8 4px 4px,
+    text-shadow: #afe222 1px 1px, #afe222 2px 2px, #afe222 3px 3px, #B7BDC8 4px 4px,
 #B7BDC8 5px 5px, #B7BDC8 6px 6px;
     left: -6px;
     top: -6px;
@@ -111,7 +116,4 @@ text-shadow: #afe222 1px 1px, #afe222 2px 2px, #afe222 3px 3px, #B7BDC8 4px 4px,
 .content li {
   text-align: left;
   color: grey;
-  } /* hur text skriven med p ska vara */
-  
-  
-  
+} /* hur text skriven med p ska vara */
